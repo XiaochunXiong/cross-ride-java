@@ -1,9 +1,15 @@
 package com.crossover.techtrial;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author crossover
+ *
+ */
+@SpringBootApplication
 public class CrossRideApplication {
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(CrossRideApplication.class, args);
+  }
 }
